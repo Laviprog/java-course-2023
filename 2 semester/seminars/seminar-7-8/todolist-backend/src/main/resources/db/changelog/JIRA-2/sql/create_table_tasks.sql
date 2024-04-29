@@ -1,1 +1,0 @@
-create table if not exists tasks(id SERIAL PRIMARY KEY, text VARCHAR, status VARCHAR, project_id BIGINT);
