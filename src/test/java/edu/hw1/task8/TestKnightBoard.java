@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class TestKnightBoard {
     private static Stream<Arguments> position() {
         return Stream.of(
-            Arguments.of((Object) new int[][] {
+            Arguments.of( new int[][] {
                 {0, 0, 0, 1, 0, 0, 0, 0},
                 {0, 0, 0, 0, 0, 0, 0, 0},
                 {0, 1, 0, 0, 0, 1, 0, 0},
@@ -19,7 +19,7 @@ class TestKnightBoard {
                 {0, 1, 0, 0, 0, 0, 0, 1},
                 {0, 0, 0, 0, 1, 0, 0, 0}
             }, true),
-            Arguments.of((Object) new int[][] {
+            Arguments.of( new int[][] {
                 {1, 0, 1, 0, 1, 0, 1, 0},
                 {0, 1, 0, 1, 0, 1, 0, 1},
                 {0, 0, 0, 0, 1, 0, 1, 0},
@@ -29,7 +29,7 @@ class TestKnightBoard {
                 {1, 0, 0, 0, 1, 0, 1, 0},
                 {0, 0, 0, 1, 0, 1, 0, 1}
             }, false),
-            Arguments.of((Object) new int[][] {
+            Arguments.of( new int[][] {
                 {0, 0, 0, 0, 1, 0, 0, 0},
                 {0, 0, 0, 0, 0, 1, 0, 0},
                 {0, 0, 0, 1, 0, 0, 0, 0},
