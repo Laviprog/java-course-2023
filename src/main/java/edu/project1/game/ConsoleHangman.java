@@ -14,7 +14,7 @@ public class ConsoleHangman {
         Session session = new Session(randomWord, randomWord.length());
         Scanner scanner = new Scanner(System.in);
         LOGGER.info("Guess a letter:");
-        GuessResult guessResult = null;
+        GuessResult guessResult;
         while (scanner.hasNext()) {
             String input = scanner.nextLine().toLowerCase();
             if (input.equalsIgnoreCase("end")) {
