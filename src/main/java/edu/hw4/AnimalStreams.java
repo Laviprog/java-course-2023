@@ -117,6 +117,7 @@ public class AnimalStreams {
                 .getKey() == Animal.Type.SPIDER;
     }
 
+    @SafeVarargs
     public final Animal task18(List<Animal>... animals) {
         return Arrays.stream(animals)
                 .map(x -> x.stream()
