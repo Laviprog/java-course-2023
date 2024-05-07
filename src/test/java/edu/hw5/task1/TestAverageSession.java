@@ -9,8 +9,6 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestAverageSession {
-    private static final Logger log = LogManager.getLogger(TestAverageSession.class);
-
     @Test
     void testAverageSession() {
         assertEquals(
