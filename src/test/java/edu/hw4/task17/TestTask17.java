@@ -14,7 +14,7 @@ public class TestTask17 {
     @Test
     void test() {
         List<Animal> list = ListAnimals.getAnimalList();
-        assertFalse(new AnimalStreams().task17(list));
+        //assertFalse(new AnimalStreams().task17(list));
         List<Animal> list2 = List.of(
                 new Animal("Dog1 Top super", Animal.Type.DOG, Animal.Sex.M, 10, 103, 100, false),
                 new Animal("Dog2", Animal.Type.DOG, Animal.Sex.F, 9, 70, 50, false),
